@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'first_node = kolocharov_pkg.scripts.first_node:main',   
+            'first_node = kolocharov_pkg.scripts.first_node:main',
+            'time_printer = kolocharov_pkg.scripts.time_printer:main',
         ],
     },
 )
