@@ -11,8 +11,10 @@ build/kolocharov_pkg/kolocharov_pkg.egg-info/top_level.txt
 build/kolocharov_pkg/kolocharov_pkg.egg-info/zip-safe
 kolocharov_pkg/__init__.py
 kolocharov_pkg/scripts/__init__.py
+kolocharov_pkg/scripts/even_number_publisher.py
 kolocharov_pkg/scripts/first_node.py
 kolocharov_pkg/scripts/listener.py
+kolocharov_pkg/scripts/overflow_listener.py
 kolocharov_pkg/scripts/talker.py
 kolocharov_pkg/scripts/time_printer.py
 resource/kolocharov_pkg

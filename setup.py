@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'even_publisher = kolocharov_pkg.scripts.even_number_publisher:main',
+            'overflow_listener = kolocharov_pkg.scripts.overflow_listener:main',
             'listener = kolocharov_pkg.scripts.listener:main',
             'talker = kolocharov_pkg.scripts.talker:main',
             'first_node = kolocharov_pkg.scripts.first_node:main',
