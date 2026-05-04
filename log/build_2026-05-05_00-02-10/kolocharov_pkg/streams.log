@@ -1,0 +1,23 @@
+[1.498s] Invoking command in '/home/i-mv/ros2_ws/src/kolocharov_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/i-mv/ros2_ws/src/kolocharov_pkg/build/kolocharov_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i-mv/ros2_ws/src/kolocharov_pkg/install/kolocharov_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/kolocharov_pkg build --build-base /home/i-mv/ros2_ws/src/kolocharov_pkg/build/kolocharov_pkg/build install --record /home/i-mv/ros2_ws/src/kolocharov_pkg/build/kolocharov_pkg/install.log --single-version-externally-managed install_data
+[2.018s] running egg_info
+[2.056s] writing build/kolocharov_pkg/kolocharov_pkg.egg-info/PKG-INFO
+[2.057s] writing dependency_links to build/kolocharov_pkg/kolocharov_pkg.egg-info/dependency_links.txt
+[2.057s] writing entry points to build/kolocharov_pkg/kolocharov_pkg.egg-info/entry_points.txt
+[2.058s] writing requirements to build/kolocharov_pkg/kolocharov_pkg.egg-info/requires.txt
+[2.058s] writing top-level names to build/kolocharov_pkg/kolocharov_pkg.egg-info/top_level.txt
+[2.138s] reading manifest file 'build/kolocharov_pkg/kolocharov_pkg.egg-info/SOURCES.txt'
+[2.140s] writing manifest file 'build/kolocharov_pkg/kolocharov_pkg.egg-info/SOURCES.txt'
+[2.140s] running build
+[2.141s] running build_py
+[2.141s] running install
+[2.152s] running install_lib
+[2.192s] running install_data
+[2.192s] running install_egg_info
+[2.235s] removing '/home/i-mv/ros2_ws/src/kolocharov_pkg/install/kolocharov_pkg/lib/python3.12/site-packages/kolocharov_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[2.235s] Copying build/kolocharov_pkg/kolocharov_pkg.egg-info to /home/i-mv/ros2_ws/src/kolocharov_pkg/install/kolocharov_pkg/lib/python3.12/site-packages/kolocharov_pkg-0.0.0-py3.12.egg-info
+[2.237s] running install_scripts
+[2.483s] Installing first_node script to /home/i-mv/ros2_ws/src/kolocharov_pkg/install/kolocharov_pkg/lib/kolocharov_pkg
+[2.483s] Installing talker script to /home/i-mv/ros2_ws/src/kolocharov_pkg/install/kolocharov_pkg/lib/kolocharov_pkg
+[2.484s] Installing time_printer script to /home/i-mv/ros2_ws/src/kolocharov_pkg/install/kolocharov_pkg/lib/kolocharov_pkg
+[2.484s] writing list of installed files to '/home/i-mv/ros2_ws/src/kolocharov_pkg/build/kolocharov_pkg/install.log'
+[2.538s] Invoked command in '/home/i-mv/ros2_ws/src/kolocharov_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/i-mv/ros2_ws/src/kolocharov_pkg/build/kolocharov_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/i-mv/ros2_ws/src/kolocharov_pkg/install/kolocharov_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/kolocharov_pkg build --build-base /home/i-mv/ros2_ws/src/kolocharov_pkg/build/kolocharov_pkg/build install --record /home/i-mv/ros2_ws/src/kolocharov_pkg/build/kolocharov_pkg/install.log --single-version-externally-managed install_data

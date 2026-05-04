@@ -1,0 +1,5 @@
+[console_scripts]
+first_node = kolocharov_pkg.scripts.first_node:main
+listener = kolocharov_pkg.scripts.listener:main
+talker = kolocharov_pkg.scripts.talker:main
+time_printer = kolocharov_pkg.scripts.time_printer:main

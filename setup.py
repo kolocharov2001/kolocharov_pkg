@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'listener = kolocharov_pkg.scripts.listener:main',
+            'talker = kolocharov_pkg.scripts.talker:main',
             'first_node = kolocharov_pkg.scripts.first_node:main',
             'time_printer = kolocharov_pkg.scripts.time_printer:main',
         ],
