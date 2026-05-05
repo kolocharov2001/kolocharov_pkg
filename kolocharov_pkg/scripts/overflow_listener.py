@@ -7,16 +7,39 @@ class OverflowListener(Node):
     def __init__(self):
         super().__init__('overflow_listener')
 
-        self.subscription = self.create_subscription(
+        # параметры
+        self.declare_parameter('even_topic', '/even_numbers')
+        self.declare_parameter('overflow_topic', '/overflow')
+
+        even_topic = self.get_parameter('even_topic').value
+        overflow_topic = self.get_parameter('overflow_topic').value
+
+        # подписка на even
+        self.sub_even = self.create_subscription(
             Int32,
-            '/overflow',
-            self.listener_callback,
+            even_topic,
+            self.even_callback,
             10
         )
 
-    def listener_callback(self, msg):
+        # подписка на overflow
+        self.sub_overflow = self.create_subscription(
+            Int32,
+            overflow_topic,
+            self.overflow_callback,
+            10
+        )
+
+        self.get_logger().info(
+            f'Listening even: {even_topic}, overflow: {overflow_topic}'
+        )
+
+    def even_callback(self, msg: Int32):
+        self.get_logger().info(f'Even: {msg.data}')
+
+    def overflow_callback(self, msg: Int32):
         self.get_logger().warn(
-            f'!!! ПЕРЕПОЛНЕНИЕ !!! Получено значение: {msg.data}'
+            f'!!! ПЕРЕПОЛНЕНИЕ !!! value: {msg.data}'
         )
 
 def main(args=None):
